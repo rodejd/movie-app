@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/https//rodejd.github.io/movie-app/static/css/main.0d35c030.chunk.css",
+    "main.js": "/https//rodejd.github.io/movie-app/static/js/main.b46f6057.chunk.js",
+    "main.js.map": "/https//rodejd.github.io/movie-app/static/js/main.b46f6057.chunk.js.map",
+    "runtime-main.js": "/https//rodejd.github.io/movie-app/static/js/runtime-main.deb09d86.js",
+    "runtime-main.js.map": "/https//rodejd.github.io/movie-app/static/js/runtime-main.deb09d86.js.map",
+    "static/js/2.5830cf2f.chunk.js": "/https//rodejd.github.io/movie-app/static/js/2.5830cf2f.chunk.js",
+    "static/js/2.5830cf2f.chunk.js.map": "/https//rodejd.github.io/movie-app/static/js/2.5830cf2f.chunk.js.map",
+    "index.html": "/https//rodejd.github.io/movie-app/index.html",
+    "precache-manifest.defb2ecb9bebf8eb8c1bbd5ac9d813b9.js": "/https//rodejd.github.io/movie-app/precache-manifest.defb2ecb9bebf8eb8c1bbd5ac9d813b9.js",
+    "service-worker.js": "/https//rodejd.github.io/movie-app/service-worker.js",
+    "static/css/main.0d35c030.chunk.css.map": "/https//rodejd.github.io/movie-app/static/css/main.0d35c030.chunk.css.map",
+    "static/js/2.5830cf2f.chunk.js.LICENSE.txt": "/https//rodejd.github.io/movie-app/static/js/2.5830cf2f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.deb09d86.js",
+    "static/js/2.5830cf2f.chunk.js",
+    "static/css/main.0d35c030.chunk.css",
+    "static/js/main.b46f6057.chunk.js"
+  ]
+}
