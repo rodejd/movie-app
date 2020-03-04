@@ -7,10 +7,15 @@ import "./Movie.css";
 
 class Movie extends Component{
 
-    state = {
-        isLoading : true,
-        kor : true,
-        movies: []
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isLoading: true,
+            kor: true,
+            movies: []
+        }
+
     }
 
     getMo = () =>{
@@ -57,6 +62,8 @@ class Movie extends Component{
                     return <Movies key = {movie.id} id = {movie.id} year = {movie.year} title = {movie.title} summary = {movie.summary} poster =
                         {movie.medium_cover_image} genres = {movie.genres}/>
                 })}</p>
+
+                   
 
             </section>
             </div>
