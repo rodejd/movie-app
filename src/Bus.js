@@ -1,14 +1,19 @@
 import React, {Component} from 'react';
+import Movie from "./Movie";
 
-class Bus extends Component{
-    render() {
+
+function Bus (props){
+    console.log(props);
        return(
            <div>
-               <p>props test</p>
-               <h1><p>{this.props.love}</p></h1>
+               <p>Show me the money</p>
+               <p>Black sheep wall</p>
+               <p>the gathering</p>
+               <p>power overwhelmign</p>
+
+
            </div>
        );
-    }
 }
 
 export default Bus;

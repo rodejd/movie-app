@@ -1,11 +1,9 @@
-
+import produce from 'immer';
 import React from 'react';
 
 
 
-
 class Test extends React.Component{
-
 
     state = {
         count : 0
@@ -19,16 +17,18 @@ class Test extends React.Component{
 
     };
 
-    minus = () => {
-        this.setState(
-            {count : this.state.count -1}
-        )
+   minus = () => {
+       this.setState(
+            produce(draft => {
+                draft.count--;
+            })
+       );
 };
 
 
     componentDidMount() {
         console.log("component render");
-    }
+    }z
 
     componentDidUpdate() {
         console.log("update");

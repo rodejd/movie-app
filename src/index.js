@@ -6,5 +6,5 @@ import Test from "./Test";
 import Movie from "./Movie";
 
 
-ReactDOM.render(<Movie />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
