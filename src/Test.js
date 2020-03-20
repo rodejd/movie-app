@@ -1,5 +1,8 @@
 import produce from 'immer';
 import React from 'react';
+import {Button} from "reactstrap";
+import Slider from "./Bus";
+import Alert from "reactstrap/es/Alert";
 
 
 
@@ -36,6 +39,7 @@ class Test extends React.Component{
 
     componentWillUnmount() {
         console.log("die component");
+
     }
 
     render(){
@@ -46,6 +50,9 @@ class Test extends React.Component{
             <h1>카운트 {this.state.count}</h1>
                 <button onClick={this.plus}>plus</button>
                 <button onClick={this.minus}>minus</button>
+
+                <Button color="danger">hi</Button>
+                <Alert color="success">great</Alert>
             </div>
         );
     }

@@ -49,7 +49,7 @@ class Corona extends Component{
                         :
                     <p>
                         {stores.map(List => {
-                            return <CoronaList addr={List.addr} name={List.name} stock = {List.stock_at} stat = {List.remain_stat} lng = {List.lng} lat={List.lat}/>
+                            return <CoronaList key = {List.code} addr={List.addr} name={List.name} stock = {List.stock_at} stat = {List.remain_stat} lng = {List.lng} lat={List.lat}/>
                         })}
 
                     </p>
