@@ -19,7 +19,7 @@ class GMap extends Component {
                 <Map google={this.props.google}
                      zoom={8}
                      style={mapStyles}
-                     initialCenter={{lat: 35, lng: 47}}
+                     initialCenter={{lat: 37.502398, lng: 126.9555419}}
                 />
             </div>
 
